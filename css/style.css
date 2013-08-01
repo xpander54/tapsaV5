@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #494949;
+}
+
+
+#wrapper
+{
+  max-width: 1280px;
+  width: 100%;
+  background: #F1F1F1 center 60px url(../img/bg.jpg) no-repeat fixed;
+  margin: 0 auto;
+}
+
+.width100
+{
+  width: 100%;
+  max-width: 1280px;
+}
+
+#scroller
+{
+  height: 3000px;
+  position: relative;
+  z-index: 20;
+}
+
+#slide1
+{
+  width: 100%;
+}
+
+#parallax
+{
+  width: 100%;
+  position: relative;
+}
+
+.parallax
+{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/*Menu1*/
+
+
+.menu-top
+{
+  position: fixed;
+  /*z-index: 10;*/
+  width: 100%;
+}
+
+.menu-top-cont
+{
+  position:fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 51;
+}
+
+.bar1
+{
+  margin: 0px 0px 0px 0px;
+  background: #222426;
+  height: 62px;
+  border-bottom: 5px solid #f3ec50;
+
+}
+
+
+#fixed-bar
+{
+  margin: 0px auto;
+  visibility: visible;
+  z-index: 5;
+}
+
+
+.pegaso-center-bg
+{
+  position: absolute;
+  background: red;
+  width: 100%;
+  z-index: 150;
+}
+
+.pegaso-bg
+{
+  width: 100%;
+}
+
+.logo-wrap
+{
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  margin: 2% 0px 0px 0px;
+  height: 214px;
+  max-height: 214px;
+  max-width: 1280px;
+}
+
+.pegaso-logo-center
+{
+  text-align: center;
+  z-index: 105;
+}
+
+.pegaso-logo-bg
+{
+  margin: -64px 0px 0px 0px;
+  width: 100%;
+  height: 64px;
+  /*background: rgba(100,0,0,.7);*/
+  position: absolute;
+  text-align: center;
+}
+
+.bar-bg
+{
+  width: 100%;
+
+
+}
+
+.barra-logo
+{
+  position: absolute;
+  width: 100%;
+  max-height: 59px;
+  
+}
+
+.nav-ul
+{
+  color: #bfbfbe;
+  display: inline-block;
+  width: 100%;
+  list-style-type: none; 
+  margin: 0;
+  cursor: pointer;
+  font-weight: bold;
+  /*margin: 1.5em;*/
+}
+
+.nav-ul > li
+{
+  display: block;
+  float: left;
+  padding: 1.5em 0em;
+  width: 15%;
+  text-align: center;
+}
+
+.nav-ul > li:hover
+{
+  background: rgba(107,107,107,1);
+}
+.nav1
+{
+  max-width: 1280px;
+  margin:0 auto;
+}
+
+
+.nav-ul-r
+{
+  float: right !important;
+}
+
+
+#main-nav
+{
+  background: #222426;
+  height: 62px;
+  padding: 0;
+  margin: 0;
+
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+  z-index: 1000;
+  visibility: visible;
+  border-bottom: 5px solid #f3ec50;
+}
+
+#main-nav ul
+{
+  
+  margin: 0 auto;
+}
+
+#main-nav ul li
+{
+  float: left;
+  width: 200px;
+  padding-left: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+#main-nav ul li a
+{
+  color: #f1ecb1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*
+termina bar1
+*/
+
+/*/Menu1*/
+
+section 
+{
+  margin: 0 auto;
+}
+
+h1, h2, p {
+  color: white;
+  font-family: helvetica, arial;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  position: absolute;
+  left: 50%;
+  width: 300px;
+  margin-left: -150px;
+}
+
+h1 {
+  font-size: 68px;
+  top: 85px;
+}
+
+h2 {
+  font-size: 27px;
+  top: 170px;
+}
+
+p {
+  font-size: 17px;
+  top: 210px;
+}
+
+.pixel {
+  position: absolute;
+  width: 62%;
+  z-index: 1;
+}
+
+    .pixel:nth-child(1)  
+  { 
+    /*left: 30px;  */
+  }
+
+  .pixel:nth-child(2)  
+  { 
+    
+    right: 0; 
+    width: 38%;
+
+  }
+
+  .pixel:nth-child(3)  
+  { 
+    left: 60px;
+  }
+  .pixel:nth-child(4)
+  { 
+    left: 90px;  
+  }
+  
+  .pixel:nth-child(5)
+  { 
+    left: 120px;
+  }
+
+  .pixel:nth-child(6)  
+  { 
+    left: 150px; 
+  }
+
+  .pixel:nth-child(7)  
+  { 
+    left: 180px; 
+  }
+  .pixel:nth-child(8)  
+  { 
+    left: 210px; 
+  }
+  
+  .pixel:nth-child(9)
+    { 
+      left: 240px; 
+    }
+
+  .pixel:nth-child(10) 
+  { 
+    left: 270px; 
+  }
+
+
+/*index*/
+
+.nfo-index
+{
+  margin-top: -360px;
+  width: 85%;
+  float: right;
+  text-align: justify;
+  padding: 1em;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  min-height: 250px;
+  background: rgba(155,155,155,.2);
+  box-shadow: 0px 0px 10px rgba(50, 50, 50, 0.75);
+}
+
+
+/*/index*/
+
+
+  /*Mobil*/
+
+
+.mobile body {
+  overflow: hidden;
+}
+
+.mobile #wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.mobile #scroller {
+  height: 3000px;
+}
+
+
+  /*/Mobil*/
